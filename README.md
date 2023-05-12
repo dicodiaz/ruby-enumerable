@@ -2,23 +2,24 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Setup](#setup)
-  - [Usage](#usage)
-- [👥 Authors](#authors)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [📝 License](#license)
+- [� Table of Contents](#-table-of-contents)
+- [📖 Ruby Enumerable ](#-ruby-enumerable-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [👥 Authors ](#-authors-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-# 📖 Decode Morse Code <a name="about-project"></a>
+# 📖 Ruby Enumerable <a name="about-project"></a>
 
-**Decode Morse Code** is a small Ruby warm up project that takes an encoded Morse message and returns the decoded version.
+**Ruby Enumerable** is a project where we learned how to use a module inside a class. For this we created a class `MyList` and a module `MyEnumerable`. Our module `MyEnumerable` implemented a subset of the functionality of [Enumerable](https://ruby-doc.org/core-3.0.0/Enumerable.html).
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -33,7 +34,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Decode a morse message**
+- **MyList:**
+  - each
+  - each_with_index
+  - swap
+- **MyEnumerable:**
+  - all?
+  - any?
+  - filter
+  - max
+  - min
+  - sort
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,7 +64,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mwismann/decode_a_morse_code.git
+  git clone git@github.com:dicodiaz/ruby-enumerable.git
 ```
 
 ### Usage
@@ -61,24 +72,24 @@ Clone this repository to your desired folder:
 To run the project, execute the following commands:
 
 ```sh
-  ruby decode.rb
+  ruby my_list.rb
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Mathias Wismann**
-
-- GitHub: [@mwismann](https://github.com/mwismann)
-- Twitter: [@mathias_wismann](https://twitter.com/mathias_wismann)
-- LinkedIn: [Mathias Wismann](https://www.linkedin.com/in/mathias-wismann/)
-
 👤 **Dico Diaz Dussan**
 
 - GitHub: [@dicodiaz](https://github.com/dicodiaz)
 - LinkedIn: [Dico Diaz Dussan](https://www.linkedin.com/in/dico-diaz-dussan/)
 - Portfolio: [portfolio.dicodiaz.com.co](https://portfolio.dicodiaz.com.co)
+
+👤 **Mathias Wismann**
+
+- GitHub: [@mwismann](https://github.com/mwismann)
+- Twitter: [@mathias_wismann](https://twitter.com/mathias_wismann)
+- LinkedIn: [Mathias Wismann](https://www.linkedin.com/in/mathias-wismann/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
