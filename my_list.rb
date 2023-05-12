@@ -14,5 +14,10 @@ class MyList
   end
 end
 
-list = MyList.new(1, 2, 3, 4)
-list.each { |elem| puts elem }
+p list = MyList.new(*10.times.map { rand(100) })
+p random = rand(100)
+p(list.all? { |e| e < random })
+p(list.all? { |e| e > random })
+p(list.any? { |e| e < random })
+p(list.any? { |e| e > random })
+p(list.filter(&:even?))
