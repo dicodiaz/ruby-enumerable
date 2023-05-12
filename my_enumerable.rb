@@ -20,4 +20,36 @@ module MyEnumerable
     end
     result
   end
+
+  def max
+    result = -1.0 / 0
+    each do |elem|
+      result = elem if elem > result
+    end
+    result
+  end
+
+  def min
+    result = 1.0 / 0
+    each do |elem|
+      result = elem if elem < result
+    end
+    result
+  end
+
+  def sort
+    each_with_index do |elem_i, i|
+      max = elem_i
+      max_index = i
+      each_with_index do |elem_j, j|
+        next if j <= i
+
+        if elem_j > max
+          max = elem_j
+          max_index = j
+        end
+      end
+      swap(i, max_index) if i != max_index
+    end
+  end
 end
